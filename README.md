@@ -28,3 +28,16 @@
 
 ## Execução do Upgrade:
  - Executa o Media Creation Tool com argumentos automáticos e silenciosos (/auto upgrade /quiet /norestart).
+
+----------------------------------------------------------------------------------------------------
+
+# NetworkUpgrade.ps1 - Como Funciona o Script
+## Verificação de Versão:
+ - Compara o número de build atual do sistema (CurrentBuild) com o da versão 22H2 (19045).
+
+## Pré-Requisitos:
+ ### ISO do Windows 10 22H2: Certifique-se de que a ISO oficial do Windows 10 22H2 esteja disponível.
+ ### Compartilhamento de Rede: Certifique-se de que o compartilhamento de rede onde a ISO está localizada esteja acessível pelo dispositivo que será atualizado. Por exemplo:
+  - Caminho do compartilhamento: \\Servidor\Repositório
+ ### Credenciais de Rede: Se necessário, configure credenciais para acessar o compartilhamento.
+ ### Mapeamento Automático: A ISO pode ser montada diretamente no sistema, ou o conteúdo pode ser copiado para uma pasta temporária local.
