@@ -16,7 +16,7 @@
 
 ----------------------------------------------------------------------------------------------------
 
-# CheckAndUpgrade.ps1 - Como Funciona o Script
+# DownloadCheckAndUpgrade.ps1 - Como Funciona o Script
 ## Verificação de Versão:
  - Compara o número de build atual do sistema (CurrentBuild) com o da versão 22H2 (19045).
 
