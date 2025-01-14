@@ -2,7 +2,7 @@
 
 # Etapas da Solução
 # 1. Verificação da Versão do Windows
-  Determine se o dispositivo já está na versão 22H2 ou se precisa de atualização.
+  Determine se o dispositivo já está na versão 22H2 ou se precisa de atualização.<br />
     Isso pode ser feito verificando o BuildNumber ou ReleaseID do Windows.
 
 # 2. Validação de Pré-Requisitos
